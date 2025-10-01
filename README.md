@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ReClaimIt - Campus Lost & Found Application
 
 A comprehensive lost and found application for university campuses, built with React frontend and Node.js backend with MongoDB integration.
@@ -161,3 +162,6 @@ This project is licensed under the MIT License.
 ## Support
 
 For support and questions, please open an issue in the repository.
+=======
+# ReClaimIt
+>>>>>>> 71fa446add8cebe2ec83b0f00dc24fd63cf52766
