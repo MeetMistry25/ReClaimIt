@@ -8,7 +8,7 @@ const User = require('./models/User');
 const createAdminUser = async () => {
   try {
     // Connect to MongoDB
-    await mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/reclaimit', {
+    await mongoose.connect(process.env.MONGO_URI || 'mongodb+srv://reclaimit_db_user:wIWEjthY9VKvobcu@reclaimitdb.00cpxen.mongodb.net/', {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
