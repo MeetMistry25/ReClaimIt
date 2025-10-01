@@ -1,0 +1,27 @@
+{
+  "name": "campus-lost-found",
+  "version": "1.0.0",
+  "description": "A full-stack web application for university students to report and find lost items",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm start",
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install",
+    "build": "cd client && npm run build"
+  },
+  "keywords": [
+    "lost-found",
+    "campus",
+    "university",
+    "react",
+    "nodejs"
+  ],
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "mongodb": "^6.18.0",
+    "react-scripts": "^0.0.0"
+  }
+}
