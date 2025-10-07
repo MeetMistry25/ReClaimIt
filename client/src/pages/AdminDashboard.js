@@ -6,7 +6,7 @@ import {
   CheckCircleIcon, 
   ExclamationTriangleIcon,
   ArrowRightIcon,
-  ChartBarIcon,
+
   UserGroupIcon,
   CubeIcon
 } from '@heroicons/react/24/outline';
@@ -19,7 +19,7 @@ const AdminDashboard = () => {
 
   useEffect(() => {
     fetchDashboardStats();
-  }, []);
+  }, );
 
   const fetchDashboardStats = async () => {
     try {
