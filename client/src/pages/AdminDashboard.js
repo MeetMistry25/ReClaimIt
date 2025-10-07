@@ -150,13 +150,7 @@ const AdminDashboard = () => {
       action: () => navigate('/admin/claims'),
       color: 'bg-red-600 hover:bg-red-700'
     },
-    {
-      title: 'View Reports',
-      description: 'Access detailed analytics and reports',
-      icon: ChartBarIcon,
-      action: () => navigate('/admin/reports'),
-      color: 'bg-green-600 hover:bg-green-700'
-    }
+    
   ];
 
   return (
